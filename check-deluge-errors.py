@@ -6,7 +6,7 @@ tID = sys.argv[1]
 dHost = "127.0.0.1"
 dPort = 58846
 dUser = "localclient"
-dPass = "40d0fa1bad181404a7ed3821d83aff7c7833970c"
+dPass = "HASHPASSWORD"
 
 client = DelugeRPCClient(dHost,dPort,dUser,dPass)
 client.connect()
